@@ -32,6 +32,7 @@
     </section>
     @endif
     <section class="reviews leve-comments details">
+
         <div id="add-review" class="add-review-box">
             <!-- Add Review -->
             <h3 class="listing-desc-headline margin-bottom-20 mb-4">Ajouter un avis</h3>
@@ -62,7 +63,7 @@
                             </div>
                             <div class="clearfix">
                                 <p>{{ $rating ?? '0'}} / 5</p>
-                            </div> 
+                            </div>
                         </div>
                     </div>
                     <div class="row">

@@ -15,3 +15,4 @@
 <link rel="stylesheet" href="{{ asset('assets/css/menu.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/styles.css') }}">
 <link rel="stylesheet" id="color" href="{{ asset('assets/css/default.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}">

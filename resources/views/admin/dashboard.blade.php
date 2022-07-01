@@ -65,7 +65,7 @@
         @if($restaurants->count() > 0)
             <div class="col-sm-12">
                 <div class="dashborad-box">
-                    <h4 class="title">Top 5 des meilleurs restaurants</h4>
+                    <h4 class="title">Top 5 des restaurants les moins notés</h4>
                     <div class="section-body">
                         <div class="table-responsive">
                             <table class="table table-striped">

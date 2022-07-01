@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- START SECTION BLOG -->
-	<section class="blog blog-section">
+	<section class="" style="margin: 50px">
 		<div class="container">
 			<div class="row">
                 <aside class="col-lg-3 col-md-12">
@@ -20,7 +20,7 @@
 								<a href="blog-details.html" class="news-img-link">
 
 								</a>
-								<div class="news-item-text details">
+								<div class="details">
 									<a href="#"><h3>Mes avis ({{ $reviews->total() }})</h3></a>
 									<div class="news-item-descr big-news details visib">
                                         @if($reviews->total() > 0)

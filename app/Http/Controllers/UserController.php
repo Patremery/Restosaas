@@ -25,7 +25,7 @@ class UserController extends Controller
     }
 
     public function reviews(){
-        $reviews = Review::where('user_id', Auth::id())->paginate(12);
+        $reviews = Review::where('user_id', Auth::id())->paginate(5);
 
         return view('front.users.reviews', compact('reviews'));
     }

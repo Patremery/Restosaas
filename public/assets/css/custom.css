@@ -1,0 +1,13 @@
+.inner-pages .leave-rating label {
+    font-size: 24px;
+    float: left;
+    letter-spacing: 4px;
+    color: #dadada;
+    cursor: pointer;
+    /* -webkit-transition: .3s;
+    transition: .3s; */
+}
+
+.inner-pages .leave-rating label:hover, .inner-pages .leave-rating label:hover ~ label {
+    color: #ffc600 !important;
+}
